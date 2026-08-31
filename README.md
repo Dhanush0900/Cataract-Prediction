@@ -55,3 +55,29 @@ at 94.50%** among the evaluated models.
 The repository also contains detailed evaluation visualizations for
 each model, including confusion matrices, ROC curves, loss curves,
 prediction results, and error analysis.
+
+## 📈 Model Results
+
+### ResNet50
+
+![ResNet50 Accuracy](Cataract%20Prediction/models/ResNet50/ResNet50%20-%20Accuracy.png)
+
+### VGG19
+
+![VGG19 Accuracy](Cataract%20Prediction/models/VGG19/VGG19%20-%20Accuracy.png)
+
+### MobileNetV2
+
+![MobileNetV2 Accuracy](Cataract%20Prediction/models/MobileNetV2/MobileNetV2%20-%20Accuracy.png)
+
+### DQN
+
+![DQN Accuracy](Cataract%20Prediction/models/DQN/DQN%20-%20Accuracy.png)
+
+### A2C
+
+![A2C Accuracy](Cataract%20Prediction/models/A2C/A2C%20-%20Accuracy.png)
+
+### PPO
+
+![PPO Accuracy](Cataract%20Prediction/models/PPO/PPO%20-%20Accuracy.png)
