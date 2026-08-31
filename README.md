@@ -2,13 +2,11 @@
 
 ## 📌 Overview
 
-This project focuses on **AI-based cataract prediction using deep learning and reinforcement learning techniques**.
+This project focuses on AI-based cataract prediction using deep learning and reinforcement learning techniques.
 
-Multiple machine learning and deep learning models are implemented and evaluated to analyze their performance for cataract prediction.
+Multiple models are implemented and evaluated for cataract prediction.
 
 ## 🤖 Models Used
-
-The project includes the following models:
 
 - ResNet50
 - VGG19
@@ -17,26 +15,7 @@ The project includes the following models:
 - A2C (Advantage Actor-Critic)
 - PPO (Proximal Policy Optimization)
 
-## 📂 Project Structure
-
-```text
-Cataract-Prediction/
-│
-├── Cataract Prediction/
-│   └── models/
-│       ├── A2C/
-│       ├── DQN/
-│       ├── MobileNetV2/
-│       ├── PPO/
-│       ├── ResNet50/
-│       └── VGG19/
-│
-└── README.md
-
 ## 📊 Results
-
-The models were evaluated on cataract prediction using classification
-performance metrics.
 
 | Model | Accuracy |
 |---|---:|
@@ -47,37 +26,65 @@ performance metrics.
 | A2C | 94% |
 | PPO | 91.32% |
 
-### Best Performing Model
+### 🏆 Best Performing Model
 
-Based on the recorded results, **DQN achieved the highest accuracy
-at 94.50%** among the evaluated models.
-
-The repository also contains detailed evaluation visualizations for
-each model, including confusion matrices, ROC curves, loss curves,
-prediction results, and error analysis.
+DQN achieved the highest recorded accuracy of **94.50%** among the evaluated models.
 
 ## 📈 Model Results
 
-### ResNet50
+The repository contains detailed graphs and evaluation results for each model, including:
 
-![ResNet50 Accuracy](Cataract%20Prediction/models/ResNet50/ResNet50%20-%20Accuracy.png)
+- Accuracy
+- Loss
+- Confusion Matrix
+- ROC Curve
+- Prediction results
+- Error analysis
+- Training and validation performance
 
-### VGG19
+## 📂 Project Structure
 
-![VGG19 Accuracy](Cataract%20Prediction/models/VGG19/VGG19%20-%20Accuracy.png)
+Cataract-Prediction/
 
-### MobileNetV2
+└── Cataract Prediction/
 
-![MobileNetV2 Accuracy](Cataract%20Prediction/models/MobileNetV2/MobileNetV2%20-%20Accuracy.png)
+    └── models/
 
-### DQN
+        ├── A2C/
 
-![DQN Accuracy](Cataract%20Prediction/models/DQN/DQN%20-%20Accuracy.png)
+        ├── DQN/
 
-### A2C
+        ├── MobileNetV2/
 
-![A2C Accuracy](Cataract%20Prediction/models/A2C/A2C%20-%20Accuracy.png)
+        ├── PPO/
 
-### PPO
+        ├── ResNet50/
 
-![PPO Accuracy](Cataract%20Prediction/models/PPO/PPO%20-%20Accuracy.png)
+        └── VGG19/
+
+## 🛠️ Technologies Used
+
+- Python
+- TensorFlow / Keras
+- Jupyter Notebook
+- NumPy
+- Pandas
+- Matplotlib
+- Scikit-learn
+- Deep Learning
+- Reinforcement Learning
+
+## 🚀 How to Use
+
+1. Open the required model folder.
+2. Open the corresponding Jupyter Notebook.
+3. Install the required libraries.
+4. Run the notebook cells.
+
+## ⚠️ Disclaimer
+
+This project is intended for educational and research purposes only. It is not intended to provide medical diagnosis or replace professional medical advice.
+
+## 👨‍💻 Author
+
+**Dhanush0900**
