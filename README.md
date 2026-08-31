@@ -32,3 +32,28 @@ Cataract-Prediction/
 │       └── VGG19/
 │
 └── README.md
+
+## 📁 Results
+
+## 📊 Results
+
+The models were evaluated on cataract prediction using classification
+performance metrics.
+
+| Model | Accuracy |
+|---|---:|
+| ResNet50 | 94% |
+| VGG19 | 93% |
+| MobileNetV2 | 94% |
+| DQN | 94.50% |
+| A2C | 94% |
+| PPO | 91.32% |
+
+### Best Performing Model
+
+Based on the recorded results, **DQN achieved the highest accuracy
+at 94.50%** among the evaluated models.
+
+The repository also contains detailed evaluation visualizations for
+each model, including confusion matrices, ROC curves, loss curves,
+prediction results, and error analysis.
