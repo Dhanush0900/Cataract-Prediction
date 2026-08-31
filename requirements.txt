@@ -1,0 +1,13 @@
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+tensorflow
+keras
+jupyter
+notebook
+Pillow
+opencv-python
+gymnasium
+stable-baselines3
