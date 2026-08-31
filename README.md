@@ -33,8 +33,6 @@ Cataract-Prediction/
 │
 └── README.md
 
-## 📁 Results
-
 ## 📊 Results
 
 The models were evaluated on cataract prediction using classification
