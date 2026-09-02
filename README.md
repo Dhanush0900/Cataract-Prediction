@@ -42,26 +42,30 @@ The repository contains detailed graphs and evaluation results for each model, i
 - Error analysis
 - Training and validation performance
 
-## 📂 Project Structure
+## 📁 Project Structure
 
+```text
 Cataract-Prediction/
-
-└── Cataract Prediction/
-
-    └── models/
-
-        ├── A2C/
-
-        ├── DQN/
-
-        ├── MobileNetV2/
-
-        ├── PPO/
-
-        ├── ResNet50/
-
-        └── VGG19/
-
+│
+├── Cataract Prediction/
+│   └── models/
+│       ├── A2C/
+│       │   └── a2c-rl.ipynb
+│       ├── DQN/
+│       │   └── dqn-rl.ipynb
+│       ├── MobileNetV2/
+│       │   └── mobilenetv2.ipynb
+│       ├── PPO/
+│       │   └── ppo-rl.ipynb
+│       ├── ResNet50/
+│       │   └── resnet50.ipynb
+│       └── VGG19/
+│           └── vgg19.ipynb
+│
+├── requirements.txt
+├── .gitignore
+└── README.md
+```
 ## 🛠️ Technologies Used
 
 - Python
