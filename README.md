@@ -76,11 +76,32 @@ Cataract-Prediction/
 
 ## 🚀 How to Use
 
-1. Open the required model folder.
-2. Open the corresponding Jupyter Notebook.
-3. Install the required libraries.
-4. Run the notebook cells.
+### 1. Clone the repository
 
+```bash
+git clone https://github.com/Dhanush0900/Cataract-Prediction.git
+cd Cataract-Prediction
+```
+### 2. Install dependencies
+```bash
+pip install -r requirements.txt
+```
+### 3. Open a model notebook
+```bash
+Go to:
+Cataract Prediction/models/
+Available models:
+A2C
+DQN
+MobileNetV2
+PPO
+ResNet50
+VGG19
+```
+### 4. Run the notebook
+```bash
+Open the corresponding .ipynb file using Google Colab, Jupyter Notebook, or JupyterLab and run the cells.
+```
 ## ⚠️ Disclaimer
 
 This project is intended for educational and research purposes only. It is not intended to provide medical diagnosis or replace professional medical advice.
