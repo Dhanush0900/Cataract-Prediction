@@ -32,15 +32,31 @@ DQN achieved the highest recorded accuracy of **94.50%** among the evaluated mod
 
 ## 📈 Model Results
 
-The repository contains detailed graphs and evaluation results for each model, including:
+The repository contains detailed graphs and evaluation results for each model.
 
-- Accuracy
-- Loss
-- Confusion Matrix
-- ROC Curve
-- Prediction results
-- Error analysis
-- Training and validation performance
+### A2C
+
+![A2C Accuracy](Cataract%20Prediction/models/A2C/A2C%20-%20Accuracy.png)
+
+### DQN
+
+![DQN Accuracy](Cataract%20Prediction/models/DQN/DQN%20-%20Accuracy.png)
+
+### MobileNetV2
+
+![MobileNetV2 Accuracy](Cataract%20Prediction/models/MobileNetV2/MobileNetV2%20-%20Accuracy.png)
+
+### PPO
+
+![PPO Accuracy](Cataract%20Prediction/models/PPO/PPO%20-%20Accuracy.png)
+
+### ResNet50
+
+![ResNet50 Accuracy](Cataract%20Prediction/models/ResNet50/ResNet50%20-%20Accuracy.png)
+
+### VGG19
+
+![VGG19 Accuracy](Cataract%20Prediction/models/VGG19/VGG19%20-%20Accuracy.png)
 
 ## 📁 Project Structure
 
